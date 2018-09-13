@@ -7,12 +7,17 @@
     "start": "node server.js",
     "server": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikecurtisjs/dev-connector.git"
+  },
   "author": "Michael Curtis",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "gravatar": "^1.6.0",
     "jsonwebtoken": "^8.3.0",
     "mongoose": "^5.2.12",
     "passport": "^0.4.0",
